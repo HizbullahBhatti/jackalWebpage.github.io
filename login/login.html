@@ -25,14 +25,30 @@
                 <label for="password">Password</label>
                 <input type="password" class="form-control" id="password" placeholder="Password">
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <!--<button id="login" class="btn btn-primary">Login</button> -->
+              <a href="" id="link">Login</a>
             </form>
           </div>
           <div class="card-footer">
-            <p>Don't have an account? <a href="sign up.html" class="card-link">Sign up</a></p>
+            <p>Don't have an account? <a href="signup\sign up.html" class="card-link">Sign up</a></p>
           </div>
         </div>
       </div>
+
+      <script>
+        let email = document.querySelector('#email').value;
+        let password = document.querySelector('#password').value;
+        let loginBtn = document.querySelector('#login')
+        let link = document.querySelector('#link')
+        
+        link.addEventListener('click',function(){
+            
+              link.href = "file:///D:/FYP%20Webpage/index.html"
+              link.click()
+            
+            
+            })
+      </script>
 
 </body>
 </html>

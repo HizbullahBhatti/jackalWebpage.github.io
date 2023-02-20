@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #f3f4f6;
   }
   
   .card {
@@ -48,7 +49,8 @@
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    color: #4b5563;
+    font-size: 16px;
   }
   
   input[type="text"]:focus,
@@ -66,7 +68,7 @@
     font-weight: bold;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+    transition: all 0.3s ease;
   }
   
   .btn-primary:hover {
@@ -78,21 +80,13 @@
     padding: 10px 20px;
     border-top: 1px solid #d2d6dc;
     border-radius: 0px 0px 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   
   .card-link {
     color: #319795;
-    text-decoration: none;
   }
   
   .sign-up-card {
-    display: none;
-  }
-  
-  .card-link:hover {
-    text-decoration: underline;
+    display: block;
   }
   
