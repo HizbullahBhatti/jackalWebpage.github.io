@@ -18,8 +18,11 @@ When a button is clicked or a value is entered in the input field, use the rosli
 In the ROS node running on the Jackal Robot, subscribe to the ROS topic that controls the robot's movement, and send the appropriate commands to the robot's motors to move it in the desired direction.
 
 With this setup, you can control the Jackal Robot's movement from a webpage. However, keep in mind that you will need to have a good understanding of ROS, web development, and the roslibjs library to implement this solution.
+<<<<<<< HEAD
 
 
 roslaunch rosbridge_server rosbridge_websocket.launch
 rosnode list
 roslaunch rosbridge_server rosbridge_websocket.launch
+=======
+>>>>>>> 541e941777d1e70e6da9382a7e03df431eba1e27
